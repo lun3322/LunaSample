@@ -1,0 +1,9 @@
+language: csharp
+solution: LunaSample.sln
+mono: none
+dotnet: 3.1.402
+branches:
+  only:
+    - master
+script:
+  - dotnet build

@@ -4,12 +4,7 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Luna" Version="1.1.2" />
-      <PackageReference Include="Luna.Dapper" Version="1.1.2" />
-      <PackageReference Include="Luna.MongoDb" Version="1.1.2" />
-      <PackageReference Include="Luna.Redis.AspNetCore" Version="1.1.2" />
-    </ItemGroup>
+    <Import Project="..\common.props"/>
 
     <ItemGroup>
       <ProjectReference Include="..\LunaSample.Core\LunaSample.Core.csproj" />

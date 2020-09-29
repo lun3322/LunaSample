@@ -4,16 +4,11 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Luna" Version="1.1.2" />
-      <PackageReference Include="Luna.MongoDb" Version="1.1.2" />
-      <PackageReference Include="Luna.Nlog.AspNetCore" Version="1.1.2" />
-      <PackageReference Include="Luna.Web" Version="1.1.2" />
-    </ItemGroup>
+    <Import Project="..\common.props"/>
 
     <ItemGroup>
-      <ProjectReference Include="..\LunaSample.Core\LunaSample.Core.csproj" />
-      <ProjectReference Include="..\LunaSample.Service\LunaSample.Service.csproj" />
+        <ProjectReference Include="..\LunaSample.Core\LunaSample.Core.csproj"/>
+        <ProjectReference Include="..\LunaSample.Service\LunaSample.Service.csproj"/>
     </ItemGroup>
 
 </Project>
