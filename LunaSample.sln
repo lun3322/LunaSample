@@ -1,10 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSample.Web", "LunaSample.Web\LunaSample.Web.csproj", "{AF17983C-0309-421F-9805-74E73FA3EF8B}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunaSample.Web", "LunaSample.Web\LunaSample.Web.csproj", "{AF17983C-0309-421F-9805-74E73FA3EF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSample.Core", "LunaSample.Core\LunaSample.Core.csproj", "{E4D1595E-24E8-4AC1-8922-9F03B3AF598E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunaSample.Core", "LunaSample.Core\LunaSample.Core.csproj", "{E4D1595E-24E8-4AC1-8922-9F03B3AF598E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunaSample.Service", "LunaSample.Service\LunaSample.Service.csproj", "{22D10C34-81FD-4260-8960-B4AF8985C661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunaSample.Service", "LunaSample.Service\LunaSample.Service.csproj", "{22D10C34-81FD-4260-8960-B4AF8985C661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2D4E1DD-C43B-4436-AFD0-B6B7D233E10C}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		common.props = common.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +33,11 @@ Global
 		{22D10C34-81FD-4260-8960-B4AF8985C661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22D10C34-81FD-4260-8960-B4AF8985C661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22D10C34-81FD-4260-8960-B4AF8985C661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2EDE259-3A50-46AA-B694-32E081FBFB3D}
 	EndGlobalSection
 EndGlobal
